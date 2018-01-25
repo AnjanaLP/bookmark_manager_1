@@ -17,4 +17,5 @@ feature 'Creating links' do
     link = Link.first
     expect(link.tags.map(&:name)).to include('News')
   end
+
 end
